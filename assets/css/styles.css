@@ -73,6 +73,7 @@ a {
     background: #E6F0FF;
     /* background: green; */
     height: calc(100vh - 90px);
+    justify-content: center;
 }
 
 .navbar {
@@ -114,15 +115,11 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5;
@@ -131,7 +128,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     font-size: 3.4rem;
     font-weight: 700;
     line-height: 1.19;
@@ -140,7 +137,7 @@ a {
     color: #000336;
 } 
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5A6473;
     font-size: 1.2rem;
